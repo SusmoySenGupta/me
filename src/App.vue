@@ -1,3 +1,13 @@
+
+<script setup>
+import { useTitle } from '@vueuse/core';
+
+const name = `<susmoy/>`;
+const designation = `Software Engineer`;
+
+useTitle('Susmoy Sen Gupta | Software Engineer');
+</script>
+
 <template>
     <div class="flex flex-col items-center justify-center w-screen h-screen bg-slate-800" v-once>
         <!-- Logo -->
@@ -36,11 +46,6 @@
         </div>
     </div>
 </template>
-
-<script setup>
-const name = `<susmoy/>`;
-const designation = `Software Engineer`;
-</script>
 
 <style lang="postcss" scoped>
 .link {
