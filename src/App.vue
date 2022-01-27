@@ -1,11 +1,8 @@
 
 <script setup>
 import SocialLinks from './components/SocialLinks.vue';
-import TheHeader from './components/TheHeader.vue';
 import TheBody from './components/TheBody.vue';
-import { useTitle } from '@vueuse/core';
-
-useTitle('Susmoy Sen Gupta | Software Engineer');
+import TheHeader from './components/TheHeader.vue';
 </script>
 
 <template>
